@@ -1,0 +1,105 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin-top: 40px;
+}
+
+button:active {
+    transform: translate(0px, 5px);
+}
+  
+.btn {
+    background-color: #6024ad;
+    box-shadow: 0px 5px 5px 0px rgb(19, 30, 37);
+}
+.btn:hover {
+    background-color: #b92229;
+}
+
+.overlay {
+	display:none;
+	position:fixed;
+    z-index: 100;
+   	top:0;
+	right:0; 
+	left:0;
+    bottom:0;
+    background:#000; 
+	opacity:0.8;
+}
+
+.popup {
+    display: none;
+    position: relative;
+    z-index: 200;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+	width: 550px;
+	height: 350px;
+	background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 15%);
+    
+}
+
+.cross {
+    padding: 10px 0 0 10px;
+}
+
+.cross img {
+    cursor: pointer;
+}
+
+.triangle {
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding: 0 50px;
+    color: #3F444E;
+}
+
+.buttons {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_can, #btn_un {
+    border-radius: 5px;
+    border: 2px solid #DDE3ED;
+    width: 200px;
+    padding: 6px 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #7F889A;
+    cursor: pointer;
+}
+
+#btn_can:hover, #btn_un:hover {
+    color: #FFF;
+    background-color: #FF3B30;
+}
